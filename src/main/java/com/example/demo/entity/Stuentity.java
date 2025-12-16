@@ -37,5 +37,14 @@ public class Stuentity{
     public void setcgpa(float cgpa id){
         this.cgpa=cgpa;
     }
-    public S
+    public Stuentity(Long id, String name,String email, float cgpa){
+        this.id=id;
+        this.name=name;
+        this.email=email;
+        this.cgpa=cgpa;
+
+    }
+    public Stuentity(){
+        
+    }
 }
