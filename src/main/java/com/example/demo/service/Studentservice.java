@@ -1,8 +1,6 @@
-package com.example.demo1.service;//demo
+package com.example.demo.service;//demo
 
-import org.springframework.stereotype.Service;
 
-@Service
 public interface  Studentservice {
     
 }
